@@ -1,5 +1,4 @@
-#include <iostream.h> 
-#include <conio.h>
+#include <iostream>
 using namespace std;
 class circle
 {
@@ -10,13 +9,13 @@ void compute_area(double r)
 {
 radius=r;
  double area=3.14*r*r;
-Cout<<"Radius is:"<<radius;
-Cout<<"area is:"<<area;
+cout<<"Radius is:"<<radius;
+cout<<"area is:"<<area;
 }
 };
 int main() 
 {
-Circle obj;
+circle obj;
 obj.compute_area(1.5) ;
-Return 0;
+return 0;
 }
